@@ -65,10 +65,3 @@ By using pointers to jump from token to token rather than looking at every singl
   * `Process *load_from_disk(const char *filename);`
   * *Security Bonus consideration:* Be mindful of endianness and struct padding when writing raw binary structures to disk!
 
-### Prompt to ask for new Exercises
-
-Act as my low-level C mentor. Keep in mind my background: I am comfortable with C basics, pointers, structs, and I have just mastered manual dynamic memory management and singly linked lists (handling malloc, free, and avoiding use-after-free bugs). 
-
-My ultimate objective is to learn low-level C for Security Research and systems programming (focusing on memory safety, OS internals, and binary exploitation). 
-
-Please give me a new set of [X] hands-on C coding exercises that gradually increase in complexity. Focus on low-level concepts such as double-linked lists, raw binary data parsing, custom heap allocators, or buffer manipulation. Emphasize manual memory control and highlight security pitfalls (like buffer overflows or memory leaks) in your explanations.
